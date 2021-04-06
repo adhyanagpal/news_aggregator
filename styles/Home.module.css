@@ -111,7 +111,23 @@
 }
 
 .logo {
-  height: 1em;
+  height: 2em;
+}
+.image {
+  height: 10em;
+}
+
+.inputBar {
+margin: 0 auto;
+float: none;
+width:100%;
+min-width: 700px;
+max-width: 1500px;
+padding: 5px 10px;
+border: 2px solid black;
+color: #0070f3;
+line-height: 1.5;
+font-size: 1.5rem;
 }
 
 @media (max-width: 600px) {
