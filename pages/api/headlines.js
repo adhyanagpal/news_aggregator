@@ -1,7 +1,7 @@
 import Cors from "cors";
 
 import NewsAPI from "newsapi";
-const newsapi = new NewsAPI("669a958371f541378a0487c8af8b3475");
+const newsapi = new NewsAPI("API Here");
 // api key updated
 function initMiddleware(middleware) {
   return (req, res) =>
